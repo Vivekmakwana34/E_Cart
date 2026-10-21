@@ -1,0 +1,78 @@
+/* Floating Home Button */
+.floating-home {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 8px 25px rgba(37, 99, 235, 0.3);
+    z-index: 9999;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+.floating-home:hover {
+    transform: translateY(-5px) scale(1.1);
+    box-shadow: 0 12px 35px rgba(37, 99, 235, 0.4);
+    background: linear-gradient(135deg, #1d4ed8 0%, #2563eb 100%);
+}
+
+.floating-home:active {
+    transform: translateY(-2px) scale(1.05);
+}
+
+.floating-home i {
+    transition: transform 0.3s ease;
+}
+
+.floating-home:hover i {
+    transform: scale(1.2);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .floating-home {
+        bottom: 20px;
+        right: 20px;
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .floating-home {
+        bottom: 15px;
+        right: 15px;
+        width: 45px;
+        height: 45px;
+        font-size: 18px;
+    }
+}
+
+/* Pulse animation for attention */
+@keyframes pulse {
+    0% {
+        box-shadow: 0 8px 25px rgba(37, 99, 235, 0.3);
+    }
+    50% {
+        box-shadow: 0 8px 35px rgba(37, 99, 235, 0.5);
+    }
+    100% {
+        box-shadow: 0 8px 25px rgba(37, 99, 235, 0.3);
+    }
+}
+
+.floating-home.pulse {
+    animation: pulse 2s infinite;
+}

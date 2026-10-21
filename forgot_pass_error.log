@@ -1,0 +1,10 @@
+[31-Mar-2026 04:57:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'last_attempt' cannot be null in C:\laragon\www\E_Cart\forgot_pass.php:117
+Stack trace:
+#0 C:\laragon\www\E_Cart\forgot_pass.php(117): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\laragon\www\E_Cart\forgot_pass.php on line 117
+[31-Mar-2026 04:57:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'last_attempt' cannot be null in C:\laragon\www\E_Cart\forgot_pass.php:117
+Stack trace:
+#0 C:\laragon\www\E_Cart\forgot_pass.php(117): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\laragon\www\E_Cart\forgot_pass.php on line 117

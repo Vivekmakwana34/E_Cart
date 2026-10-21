@@ -1,0 +1,157 @@
+🔹 1️⃣ ADMIN AUTHENTICATION
+Forms:
+Admin Login Form
+Forgot Password Form
+Change Password Form
+🛠 Actions:
+Login
+Password reset
+Password update
+
+
+🔹 2️⃣ DASHBOARD (View Only)
+Pages (No form):
+Total Users
+Total Orders
+Total Products
+Revenue (dummy)
+
+
+🔹 3️⃣ USER MANAGEMENT
+Forms:
+Add User Form
+Edit User Form
+Delete User (Confirm Modal)
+🛠 Actions:
+Add new user
+Update user details
+Block / Unblock user
+Delete user
+
+
+🔹 4️⃣ CATEGORY MANAGEMENT
+Forms:
+Add Category Form
+Edit Category Form
+Delete Category Confirm Form
+🛠 Actions:
+Add category
+Update category name/image
+Delete category
+ 
+
+
+🔹 5️⃣ PRODUCT MANAGEMENT
+Forms:
+Add Product Form
+Edit Product Form
+Delete Product Confirm Form
+🛠 Fields:
+Product Name
+Category
+Price
+Discount
+Stock
+Images
+Description
+🛠 Actions:
+Add product
+Update product
+Delete product
+Enable / Disable product
+
+
+🔹 6️⃣ ORDER MANAGEMENT
+Forms:
+Order Status Update Form
+Order Detail View Page
+🛠 Actions:
+View orders
+Update order status:
+Pending
+Shipped
+Delivered
+Cancelled
+
+🔹 🔟 COUPON / DISCOUNT MANAGEMENT
+Forms:
+Add Coupon Form
+Edit Coupon Form
+Delete Coupon Form
+🛠 Fields:
+Coupon Code
+Discount %
+Expiry Date
+
+🔹 9️⃣ BANNER / SLIDER MANAGEMENT
+Forms:
+Add Banner Form
+Edit Banner Form
+Delete Banner Confirm Form
+🛠 Actions:
+Homepage slider update
+Enable / Disable banner
+
+
+
+🔹 7️⃣ PAYMENT MANAGEMENT
+Forms:
+Payment Method Add/Edit Form
+Payment Status Update Form
+🛠 Actions:
+Enable / Disable payment metho
+Update payment status
+
+
+
+🔹 8️⃣ SHIPPING MANAGEMENT
+Forms:
+Add Shipping Zone Form
+Edit Shipping Charges Form
+Delete Shipping Zone Form
+🛠 Actions:
+Add city/zone
+Update delivery charges
+Delete zone
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+🔹 1️⃣3️⃣ REPORTS (View Only)
+Pages:
+Sales report
+User report
+Product report
+
+
+
+
+x
+
+
+
+
+
+
+
+
+        Cart
+       Search
+      Payment
+   Rating & review 
+   Offers & coupons
+    order
